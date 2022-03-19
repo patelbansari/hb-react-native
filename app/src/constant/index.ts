@@ -1,3 +1,4 @@
 import StaticData from './StaticData'
 import Strings from './Strings'
-export { StaticData, Strings }
+import Apis from './APIConstants'
+export { StaticData, Strings, Apis }
