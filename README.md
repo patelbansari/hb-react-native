@@ -2,6 +2,7 @@
 
 ## Hybrid application for Product List and Detail (IOS,Android) 
 Technology Stack: React Native, Typescript, Redux, Redux Saga, NodeJS
+
 Testing Tools: Jest, Redux Saga Test Plan
 
 ### Backend Server
