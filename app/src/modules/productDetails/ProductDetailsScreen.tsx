@@ -152,7 +152,7 @@ const Container = ({ detail }: Detail) => {
     <View style={styles.containerView}>
       <View style={styles.titleView}>
         <Title title={detail?.name} />
-        <Ratings rating={detail?.rating} />
+         {detail?.rating && <Ratings rating={detail?.rating} />}
       </View>
       <InStock stockStatus={detail?.stock_status} />
       <Description description={detail?.description} />

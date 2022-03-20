@@ -18,7 +18,7 @@ function* manageResponse(response: any, success: any, failure: any) {
   if (checkSuccessRequestCode(response?.status)) {
     yield put(success(response?.data ?? []))
   } else {
-    yield put(failure(response?.data?.error))
+    yield put(failure(response?.data?.error || response?.problem))
   }
 }
 

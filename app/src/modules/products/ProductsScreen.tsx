@@ -22,7 +22,7 @@ type Products = {
 }
 
 const Title = () => {
-  return <Text style={styles.title}>{Strings.ourProducts}</Text>
+  return <Text testID='productTitle' style={styles.title}>{Strings.ourProducts}</Text>
 }
 
 const Item = ({ product, onItemClick }: Product) => {
